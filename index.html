@@ -6,7 +6,12 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Document</title>
     <!-- ICONS -->
-    <link rel="stylesheet" href="assets/fonts/style.css">
+    <link rel="stylesheet" href="assets/fonts/style.css" />
+    <!-- Swiper -->
+    <link
+      rel="stylesheet"
+      href="https://unpkg.com/swiper/swiper-bundle.min.css"
+    />
     <!-- CSS -->
     <link rel="stylesheet" href="style.css" />
     <!-- FONTS -->
@@ -22,18 +27,18 @@
       <nav class="container">
         <a class="logo" href="#">beuty<span>salon.</span></a>
         <div class="menu">
-        <ul class="grid">
-          <li><a class="title" href="#home">Início</a></li>
-          <li><a class="title" href="#about">Sobre</a></li>
-          <li><a class="title" href="#services">Serviços</a></li>
-          <li><a class="title" href="#testimonials">Depoimentos</a></li>
-          <li><a class="title" href="#contact">Contato</a></li>
-        </ul>
-      </div>
-       <!-- /MENU -->
-      <div class="toggle icon-menu"></div>
-      <div class="toggle icon-close"></div>
-       </nav>
+          <ul class="grid">
+            <li><a class="title" href="#home">Início</a></li>
+            <li><a class="title" href="#about">Sobre</a></li>
+            <li><a class="title" href="#services">Serviços</a></li>
+            <li><a class="title" href="#testimonials">Depoimentos</a></li>
+            <li><a class="title" href="#contact">Contato</a></li>
+          </ul>
+        </div>
+        <!-- /MENU -->
+        <div class="toggle icon-menu"></div>
+        <div class="toggle icon-close"></div>
+      </nav>
     </header>
     <main>
       <section class="section" id="home">
@@ -41,7 +46,7 @@
           <div class="image">
             <img
               src="https://images.pexels.com/photos/1813272/pexels-photo-1813272.jpeg?auto=compress&cs=tinysrgb&dpr=1&w=500"
-              alt="Teclado Gamer"
+              alt="Salão de cabelereiro"
             />
           </div>
           <div class="text">
@@ -58,15 +63,33 @@
       <section class="section" id="about">
         <div class="container grid">
           <div class="image">
-            <img src="https://images.pexels.com/photos/1319460/pexels-photo-1319460.jpeg?auto=compress&cs=tinysrgb&dpr=1&w=500" alt="Tesouras de corte de cabelo">
+            <img
+              src="https://images.pexels.com/photos/1319460/pexels-photo-1319460.jpeg?auto=compress&cs=tinysrgb&dpr=1&w=500"
+              alt="Tesouras de corte de cabelo"
+            />
           </div>
           <div class="text"></div>
           <h2 class="title">Sobre nós</h2>
-          <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Et, nulla corporis? Incidunt, unde! Maiores neque inventore libero iste consectetur ratione, dolorum magnam, aperiam incidunt hic cupiditate esse tenetur nemo modi.</p>
-          <br>
-          <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Ipsum in ducimus illo, saepe nostrum impedit aperiam, nesciunt fugiat doloremque consequatur temporibus praesentium incidunt similique, pariatur fugit quam quidem culpa quae!</p>
-          <br>
-          <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Laborum tempore sed, itaque inventore impedit deleniti! Tempora quis soluta fugiat nisi debitis eos cum facere, repellat sequi animi sint accusantium minus.</p>
+          <p>
+            Lorem ipsum dolor sit amet consectetur adipisicing elit. Et, nulla
+            corporis? Incidunt, unde! Maiores neque inventore libero iste
+            consectetur ratione, dolorum magnam, aperiam incidunt hic cupiditate
+            esse tenetur nemo modi.
+          </p>
+          <br />
+          <p>
+            Lorem ipsum dolor sit amet consectetur adipisicing elit. Ipsum in
+            ducimus illo, saepe nostrum impedit aperiam, nesciunt fugiat
+            doloremque consequatur temporibus praesentium incidunt similique,
+            pariatur fugit quam quidem culpa quae!
+          </p>
+          <br />
+          <p>
+            Lorem ipsum dolor sit, amet consectetur adipisicing elit. Laborum
+            tempore sed, itaque inventore impedit deleniti! Tempora quis soluta
+            fugiat nisi debitis eos cum facere, repellat sequi animi sint
+            accusantium minus.
+          </p>
         </div>
       </section>
       <div class="divider-2"></div>
@@ -74,32 +97,149 @@
         <div class="container grid">
           <header>
             <h2 class="title">Serviços</h2>
-            <p>Com mais de 10 anos no mercado, o <strong>Beautysalon</strong> já conquistou clientes de inúmeros países com seus tratamentos exclusivos e totalmente naturais</p>
+            <p>
+              Com mais de 10 anos no mercado, o <strong>Beautysalon</strong> já
+              conquistou clientes de inúmeros países com seus tratamentos
+              exclusivos e totalmente naturais
+            </p>
           </header>
           <div class="cards grid">
             <div class="card">
               <i class="icon-woman-hair"></i>
               <h3 class="title">Terapia capilar</h3>
-              <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Laboriosam repudiandae quae magni ducimus illo enim fugit odio recusandae dolor obcaecati quis, atque eos dolores dolorum rerum ad dolore temporibus repellendus.</p>
+              <p>
+                Lorem ipsum dolor sit amet consectetur adipisicing elit.
+                Laboriosam repudiandae quae magni ducimus illo enim fugit odio
+                recusandae dolor obcaecati quis, atque eos dolores dolorum rerum
+                ad dolore temporibus repellendus.
+              </p>
             </div>
             <div class="card">
               <i class="icon-trim"></i>
               <h3 class="title">Cortes</h3>
-              <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Eos delectus voluptatem incidunt laborum blanditiis recusandae pariatur ipsum perferendis dignissimos cupiditate saepe natus voluptatibus, soluta hic aspernatur porro impedit cumque rerum.</p>
+              <p>
+                Lorem ipsum dolor sit amet consectetur adipisicing elit. Eos
+                delectus voluptatem incidunt laborum blanditiis recusandae
+                pariatur ipsum perferendis dignissimos cupiditate saepe natus
+                voluptatibus, soluta hic aspernatur porro impedit cumque rerum.
+              </p>
             </div>
             <div class="card">
               <i class="icon-cosmetic"></i>
               <h3 class="title">Tratamentos</h3>
-              <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Consectetur suscipit doloremque quos expedita maiores saepe enim sapiente perferendis iure quibusdam est, esse eligendi reiciendis doloribus nesciunt repudiandae libero ab quae.</p>
+              <p>
+                Lorem ipsum dolor sit amet consectetur adipisicing elit.
+                Consectetur suscipit doloremque quos expedita maiores saepe enim
+                sapiente perferendis iure quibusdam est, esse eligendi
+                reiciendis doloribus nesciunt repudiandae libero ab quae.
+              </p>
             </div>
           </div>
         </div>
       </section>
-      <section></section>
+      <div class="divider-1"></div>
+      <!-- === TESTIMONIALS === -->
+      <section class="section" id="testimonials">
+        <div class="container">
+          <header class="title">
+            <h2>Depoimentos de quem já passou por aqui</h2>
+          </header>
+          <div class="testimonials swiper-container">
+            <div class="swiper-wrapper">
+              <div class="testimonial swiper-slide">
+                <blockquote>
+                  <p>
+                    <span>&ldquo;</span>
+                    Lorem ipsum dolor, sit amet consectetur adipisicing elit.
+                    Neque iusto, veniam magni sequi culpa id labore aperiam,
+                    illo sed delectus corrupti! Officia vero accusantium rerum
+                    quam et. Harum, quas fugit.
+                  </p>
+                  <cite>
+                    <img
+                      src="https://randomuser.me/api/portraits/women/90.jpg"
+                      alt="Mulher comentando o site"
+                    />
+                    Wanessa Souza
+                  </cite>
+                </blockquote>
+              </div>
+              <div class="testimonial swiper-slide">
+                <blockquote>
+                  <p>
+                    <span>&ldquo;</span>
+                    Lorem ipsum dolor, sit amet consectetur adipisicing elit.
+                    Neque iusto, veniam magni sequi culpa id labore aperiam,
+                    illo sed delectus corrupti! Officia vero accusantium rerum
+                    quam et. Harum, quas fugit.
+                  </p>
+                  <cite>
+                    <img
+                      src="https://randomuser.me/api/portraits/men/9.jpg"
+                      alt="homen comentando o site"
+                    />
+                    Diego Carlos
+                  </cite>
+                </blockquote>
+              </div>
+              <div class="testimonial swiper-slide">
+                <blockquote>
+                  <p>
+                    <span>&ldquo;</span>
+                    Lorem ipsum dolor, sit amet consectetur adipisicing elit.
+                    Neque iusto, veniam magni sequi culpa id labore aperiam,
+                    illo sed delectus corrupti! Officia vero accusantium rerum
+                    quam et. Harum, quas fugit.
+                  </p>
+                  <cite>
+                    <img
+                      src="https://randomuser.me/api/portraits/men/53.jpg"
+                      alt="Homen comentando o site"
+                    />
+                    Gustavo Souza
+                  </cite>
+                </blockquote>
+              </div>
+            </div>
+            <div class="swiper-pagination"></div>
+          </div>
+        </div>
+      </section>
+      <div class="divider-2"></div>
+      <!-- ==== CONTACT ==== -->
+      <section class="section" id="contact">
+        <div class="container grid">
+          <div class="text">
+            <h2 class="title">Entre em contato com a gente!</h2>
+            <p>
+              Entre em contato com a Beatysalon, queremos tirar suas dúvidas,
+              ouvir suas críticas e sugestões.
+            </p>
+            <a
+              href="https://api.whatsapp.com/send?phone=+551198765432&text=Oi! Gostaria de agendar um horário"
+              class="button"
+              target="_blank"
+              ><i class="icon-whatsapp"> Entrar em contato</i></a
+            >
+          </div>
+
+          <div class="links">
+            <ul class="grid">
+              <li><i class="icon-phone"></i> 11 9876-5432</li>
+              <li><i class="icon-map-pin"></i> R. Amaurí Souza, 346</li>
+              <li><i class="icon-mail"></i> contato@beautysalon.com</li>
+            </ul>
+          </div>
+        </div>
+      </section>
     </main>
 
-        <!-- JAVASCRIPT -->
-        <script src="main.js"></script>
+    <!-- SWIPER -->
+    <script src="https://unpkg.com/swiper/swiper-bundle.min.js"></script>
+    <!-- ScroollReveal -->
+    <script src="https://unpkg.com/scrollreveal"></script>
 
+    <!-- JAVASCRIPT -->
+    <script src="main.js"></script>
   </body>
 </html>
